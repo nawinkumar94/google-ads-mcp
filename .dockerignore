@@ -1,0 +1,7 @@
+node_modules
+.env
+adc_credentials.json
+google-ads.yaml
+__pycache__
+*.pyc
+.git

@@ -1,0 +1,26 @@
+{
+  "name": "google-ads-mcp",
+  "version": "1.0.0",
+  "description": "This repo contains the source code for running a local [MCP](https://modelcontextprotocol.io) server that interacts with the [Google Ads API](https://developers.google.com/google-ads/api).",
+  "main": "worker.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/googleads/google-ads-mcp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/googleads/google-ads-mcp/issues"
+  },
+  "homepage": "https://github.com/googleads/google-ads-mcp#readme",
+  "dependencies": {
+    "@cloudflare/containers": "^0.2.2"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "google-ads-mcp",
+  "account_id": "968b2d94c41f28bd35044f4308f29101",
+  "main": "worker.js",
+  "compatibility_date": "2024-01-01",
+  "workers_dev": true,
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "GOOGLE_ADS_MCP",
+        "class_name": "GoogleAdsMCP"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": ["GoogleAdsMCP"]
+    }
+  ],
+  "containers": [
+    {
+      "class_name": "GoogleAdsMCP",
+      "image": "./Dockerfile",
+      "instance_type": "basic",
+      "max_instances": 1
+    }
+  ]
+}

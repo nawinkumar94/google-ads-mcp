@@ -36,4 +36,8 @@ coverage.xml
 *.cover
 .hypothesis/
 .pytest_cache/
-.nox/
+
+.nox/google-ads.yaml
+.env
+google-ads.yaml
+adc_credentials.json
